@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="user-card">
+        <img src="img/70.jpg" class="user-photo">
+        <p class="user-nickname">romashka</p>
+        <p class="user-name">
+            Иванов Иван<br>
+            Иванович
+        </p>
+        <hr>
+        <p class="user-info-item">
+            <img src="img/location.png">
+            Москва, Юбилейная 50
+        </p>
+        <p class="user-info-item">
+            <img src="img/mail.png">
+            coldrabbit48@example.com
+        </p>
+        <p class="user-info-item">
+            <img src="img/phone.png">
+            +7-495-266-57-34
+        </p>
+    </div>
+</body>
+
 </html>
